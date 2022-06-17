@@ -17,7 +17,7 @@ fn main() {
     let stripe_height: u16 = (lines as f32/stripes as f32).floor() as u16;
     
     //colours for each cell and the helpers for the text
-    let codes = ["14;30", "207;37", "255;30", "207;37", "14;30"];
+    let codes = ["81;30", "217;30", "255;30", "217;30", "81;30"];
     let letters:Vec<char>;
     let mut counter = 0;
 
